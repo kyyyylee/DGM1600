@@ -7,7 +7,7 @@
 body {
   width: 960px;
   margin: 0 auto;
-  background-color: #13243e;
+  background-color: #013220;
 }
 
 header {
@@ -18,17 +18,11 @@ header img {
   height: 100px;
 }
 
-main {
-
-}
-
 section {
   margin: 2rem 0;
 }
-
 #bio {
   display: flex;
-  /* background-color: orange; */
 }
 
 #bio-choose {
@@ -38,6 +32,9 @@ section {
   justify-content: space-between;
   margin-left: .5rem;
 }
+time{
+  padding-top: 0.5rem;
+}
 
 #name-date {
   display: flex;
@@ -45,7 +42,7 @@ section {
 }
 
 #choose-list {
-  background-color: #545353;
+  background-color: #6e6b6b;
   padding: 1rem 2rem;
   font-size: 1rem;
 }
@@ -75,11 +72,11 @@ figcaption {
 }
 
 h2, h4 {
-  color: #C0FEFE;
+  color:lightpink;
 }
 
 #interest div {
-  background-color: #545353;
+  background-color: #6e6b6b;
   padding: 1rem;
   margin-top: .75rem;
 }
@@ -87,7 +84,7 @@ h2, h4 {
 .interestText {
   margin-top: 1rem;
 }
-
-#copyright {
-  background-color: #d8e459;
+footer{
+  text-align: center;
+  padding-bottom: 2rem;
 }
